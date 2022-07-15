@@ -19,6 +19,12 @@ h1 {
     line-height: 1.5;
 }
 
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
 
 
 /* nav bar */
@@ -89,4 +95,61 @@ h1 {
 
 .feature div {
     padding-top: 60px;
+}
+
+/* testimonial section - carousel */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#testimonials .carousel-item {
+    padding: 7% 15%;
+}
+
+
+/* press */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* pricing - bootstrap cards */
+#pricing {
+    padding: 100px;
+}
+
+/* #pricing .row {
+    text-align: center;
+
+} */
+
+/* #pricing .row .card {
+    margin: 5%;
+} */
+
+#pricing .btn {
+    width: 100%;
+
+}
+
+.pricing-column {
+    padding: 3% 2%;
 }
